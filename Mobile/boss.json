@@ -1,0 +1,12 @@
+{
+	"name": "Bodyfit",
+	"description": "Bofyfit app",
+	"version": "0.0.1",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/viniciussanchez/dataset-serialize": "^v2.4.8",
+		"github.com/viniciussanchez/restrequest4delphi": "^v3.0.19"
+	}
+}

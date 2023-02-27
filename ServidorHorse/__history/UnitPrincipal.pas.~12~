@@ -1,0 +1,49 @@
+unit UnitPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Memo.Types,
+  FMX.Controls.Presentation, FMX.ScrollBox, FMX.Memo;
+
+type
+  TFrmPrincipal = class(TForm)
+    MemoLogs: TMemo;
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.fmx}
+
+uses Horse,
+     Horse.Jhonson,
+     Horse.BasicAuthentication,
+     Horse.CORS,
+     DataSet.Serialize.Config;
+
+procedure TFrmPrincipal.FormShow(Sender: TObject);
+begin
+  THorse.Use(Jhonson());
+  THorse.Use(CORS);
+
+  THorse.Use(HorseBasicAuthentication(
+  function(const AUserName, APassword: string): boolean
+  begin
+    Result := AUserName.Equals('diegofolieni') and APassword.Equals('06051998');
+  end));
+
+  //Registro das rotas...
+
+
+end;
+
+end.

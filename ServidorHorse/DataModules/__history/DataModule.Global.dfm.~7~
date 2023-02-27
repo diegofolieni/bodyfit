@@ -1,0 +1,16 @@
+object DmGlobal: TDmGlobal
+  Height = 414
+  Width = 633
+  PixelsPerInch = 120
+  object Conn: TFDConnection
+    Params.Strings = (
+      'DriverID=FB'
+      'User_Name=sysdba'
+      'Password=masterkey')
+    TxOptions.Isolation = xiDirtyRead
+    ConnectedStoredUsage = []
+    LoginPrompt = False
+    Left = 128
+    Top = 72
+  end
+end

@@ -1,0 +1,6 @@
+object Frame1: TFrame1
+  Align = Client
+  Size.Width = 320.000000000000000000
+  Size.Height = 92.000000000000000000
+  Size.PlatformDefault = False
+end

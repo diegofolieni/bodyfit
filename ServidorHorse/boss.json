@@ -1,0 +1,15 @@
+{
+	"name": "ServidorHorse",
+	"description": "Server for the Bodyfit App",
+	"version": "0.0.1",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse": "^3.0.2",
+		"github.com/hashload/horse-basic-auth": "^1.2.2",
+		"github.com/hashload/horse-cors": "^1.0.5",
+		"github.com/hashload/jhonson": "^1.1.4",
+		"github.com/viniciussanchez/dataset-serialize": "^v2.4.8"
+	}
+}

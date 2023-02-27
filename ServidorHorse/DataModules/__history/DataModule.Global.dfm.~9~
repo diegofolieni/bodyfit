@@ -1,0 +1,5 @@
+object DmGlobal: TDmGlobal
+  Height = 414
+  Width = 633
+  PixelsPerInch = 120
+end

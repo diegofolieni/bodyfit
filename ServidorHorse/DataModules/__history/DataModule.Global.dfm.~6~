@@ -1,0 +1,23 @@
+object DmGlobal: TDmGlobal
+  Height = 414
+  Width = 633
+  PixelsPerInch = 120
+  object Conn: TFDConnection
+    Params.Strings = (
+      'DriverID=FB'
+      'User_Name=sysdba'
+      'Password=masterkey')
+    TxOptions.Isolation = xiDirtyRead
+    ConnectedStoredUsage = []
+    LoginPrompt = False
+    Left = 128
+    Top = 72
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 
+      'C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Win32\D' +
+      'ebug\fbclient.dll'
+    Left = 216
+    Top = 104
+  end
+end

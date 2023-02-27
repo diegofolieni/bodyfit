@@ -1,0 +1,28 @@
+program Bodyfit;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  UnitLogin in 'UnitLogin.pas' {FrmLogin},
+  UnitPrincipal in 'UnitPrincipal.pas' {FrmPrincipal},
+  Frame.Treino in 'Frames\Frame.Treino.pas' {FrameTreino: TFrame},
+  UnitTreinoDetalhe in 'UnitTreinoDetalhe.pas' {FrmTreinoDetalhe},
+  UnitTreinoCad in 'UnitTreinoCad.pas' {FrmTreinoCad},
+  Frame.FichaExercicio in 'Frames\Frame.FichaExercicio.pas' {FrameFichaExercicio: TFrame},
+  UnitExercicio in 'UnitExercicio.pas' {FrmExercicio},
+  UnitPerfil in 'UnitPerfil.pas' {FrmPerfil},
+  UnitPerfilCad in 'UnitPerfilCad.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  ReportMemoryLeaksOnShutdown := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TFrmTreinoDetalhe, FrmTreinoDetalhe);
+  Application.CreateForm(TFrmTreinoCad, FrmTreinoCad);
+  Application.CreateForm(TFrmExercicio, FrmExercicio);
+  Application.CreateForm(TFrmPerfil, FrmPerfil);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

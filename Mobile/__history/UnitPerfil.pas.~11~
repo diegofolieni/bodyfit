@@ -1,0 +1,71 @@
+unit UnitPerfil;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts;
+
+type
+  TFrmPerfil = class(TForm)
+    lytToolbar: TLayout;
+    lblTitulo: TLabel;
+    imgFechar: TImage;
+    Rectangle1: TRectangle;
+    Image1: TImage;
+    Image2: TImage;
+    Label1: TLabel;
+    Rectangle2: TRectangle;
+    Image3: TImage;
+    Image4: TImage;
+    Label2: TLabel;
+    Rectangle3: TRectangle;
+    Image5: TImage;
+    Image6: TImage;
+    Label3: TLabel;
+    Label4: TLabel;
+    procedure Rectangle1Click(Sender: TObject);
+    procedure imgFecharClick(Sender: TObject);
+    procedure Rectangle3Click(Sender: TObject);
+    procedure Rectangle2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPerfil: TFrmPerfil;
+
+implementation
+
+{$R *.fmx}
+
+uses UnitPerfilCad, UnitPerfilSenha;
+
+procedure TFrmPerfil.imgFecharClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TFrmPerfil.Rectangle1Click(Sender: TObject);
+begin
+  if not(Assigned(FrmPerfilCad))then
+    Application.CreateForm(TFrmPerfilCad, FrmPerfilCad);
+  FrmPerfilCad.Show;
+end;
+
+procedure TFrmPerfil.Rectangle2Click(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+procedure TFrmPerfil.Rectangle3Click(Sender: TObject);
+begin
+  if not(Assigned(FrmPerfilSenha))then
+    Application.CreateForm(TFrmPerfilSenha, FrmPerfilSenha);
+  FrmPerfilSenha.Show;
+end;
+
+end.

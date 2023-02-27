@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/10 12:10:07.000.254,=C:\Users\Diego\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 14:30:52.000.263,=C:\Users\Diego\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 14:32:02.000.458,C:\Users\Diego\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\UnitPrincipal.fmx</Transaction>
+    <Transaction>2023/01/28 14:32:02.000.458,C:\Users\Diego\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\UnitPrincipal.pas</Transaction>
+    <Transaction>2023/01/28 14:32:05.000.959,C:\Users\Diego\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Servidor.dproj</Transaction>
+    <Transaction>2023/01/28 15:22:00.000.596,=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 15:22:43.000.273,C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Unit1.dfm=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\DataModules\DataModule.Global.dfm</Transaction>
+    <Transaction>2023/01/28 15:22:43.000.273,C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Unit1.pas=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\DataModules\DataModule.Global.pas</Transaction>
+    <Transaction>2023/01/28 16:42:25.000.382,=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 16:43:08.000.298,C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Unit1.pas=C:\Users\Diego\Documents\WorkSpace\Bodyfit\ServidorHorse\Controllers\Controllers.Global.pas</Transaction>
+  </Transactions>
+</BorlandProject>
